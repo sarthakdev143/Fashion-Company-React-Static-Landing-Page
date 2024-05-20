@@ -1,0 +1,61 @@
+.center1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.s-gap {
+    gap: 0.6rem;
+}
+
+.m-gap {
+    gap: 2rem;
+}
+
+.gap {
+    gap: 3rem;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.list-style-none {
+    list-style-type: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.center2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex {
+    display: flex;
+}
+
+.fdc {
+    display: flex;
+    flex-direction: column;
+}
+
+.faic {
+    display: flex;
+    align-items: center;
+}
+
+.user-select-none {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
